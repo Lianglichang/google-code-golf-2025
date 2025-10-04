@@ -1,0 +1,1 @@
+p=lambda j,R=range,E=enumerate:(a:=len(j[0]),i:=next((r for r in R(1,a)if all((x==y)|(x*y<1)for n in j for x,y in zip(n,n[r:]))),a),m:=next((r for r in R(1,a)if all((x==y)|(x*y<1)for u,v in zip(j,j[r:])for x,y in zip(u,v))),a),o:={(r%m,c%i):v for r,n in E(j)for c,v in E(n)if v},[n.__setitem__(c,o[r%m,c%i])for r,n in E(j)for c,v in E(n)if not v],j)[-1]
