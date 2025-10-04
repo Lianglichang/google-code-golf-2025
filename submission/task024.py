@@ -1,0 +1,1 @@
+p=lambda g:[[1in R and 1or 3in R and 3or v or(2in[R[i]for R in g])*2for i,v in enumerate(R)]for R in g]
