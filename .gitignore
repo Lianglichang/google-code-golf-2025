@@ -1,0 +1,8 @@
+*
+!README.md
+!submission/
+!submission/*.py
+!.gitignore
+data/
+venv/
+code_golf_utils/

@@ -1,2 +1,1 @@
-def p(g,d=range(-2,3),E=enumerate):
- G=[A[:]for A in g];[G[I+D].__setitem__(C+F,H if D*D==F*F else K)for(I,B)in E(g)for(C,H)in E(B)if H and(K:=B[C-1])*B[C+1]for D in d for F in d if D*D==F*F or D*F==0];return G
+p=lambda g,d=range(-2,3),E=enumerate:(G:=eval(str(g)),[G[i+D].__setitem__(c+F,h if D*D==F*F else K)for i,b in E(g)for c,h in E(b)if h and(K:=b[c-1])*b[c+1]for D in d for F in d if D*D==F*F or D*F==0],G)[-1]
