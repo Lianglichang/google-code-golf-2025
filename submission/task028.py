@@ -1,0 +1,1 @@
+def p(g,m=max):x,q=(m(map(m,g[:5])),m(map(m,g[5:]))),range(10);return[[(645>>r&1or c%9<1)*x[r>4]for c in q]for r in q]
