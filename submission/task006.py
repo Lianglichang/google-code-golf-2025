@@ -1,0 +1,1 @@
+p=lambda j:[[r[i]and r[i+4]and 2 for i in[0,1,2]]for r in j[:3]]

@@ -1,0 +1,2 @@
+def p(j):
+ r=range(n:=len(j));v=[[0]*n for _ in j];f=lambda x,y:(0<=x<n>y>=0 and not(v[x][y]or j[x][y]))and(v[x].__setitem__(y,1),f(x+1,y),f(x-1,y),f(x,y+1),f(x,y-1));[(f(i,0),f(i,n-1),f(0,i),f(n-1,i))for i in r];return[[(not((d:=j[i][k])or v[i][k])and 4)or d for k in r]for i in r]

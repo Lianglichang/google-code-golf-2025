@@ -1,0 +1,1 @@
+p=lambda g,A=range:(lambda c,e:[[(g[c*4+x//4][e*4+y//4],5)[x%4>2or y%4>2]for y in A(11)]for x in A(11)])(*next(divmod(t,3)for t in A(9)if sum(g[t//3*4+w//3][t%3*4+w%3]==0 for w in A(9))==5))
