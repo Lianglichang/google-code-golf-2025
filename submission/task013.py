@@ -1,7 +1,7 @@
 def p(g):
- n=a=b=e=d=0;c=()
+ a=b=e=d=0;c=()
  if n:=sum(g[0]+g[-1]):g=[*zip(*g[::-1])]
- w=len(g[0]);L=len(g)
+ w,L=len(g[0]),len(g)
  for i in range(L):
   if (t:=g[i][0]+g[i][-1])and b<2:g[i]=[t]*w;b+=1;c+=t,;d=i
   a+=b==1
