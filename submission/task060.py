@@ -1,0 +1,1 @@
+p=lambda j:[w[:1]*5+[5]+w[-1:]*5 if w[0]else w for w in j]
